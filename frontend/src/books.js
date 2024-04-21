@@ -1,0 +1,47 @@
+const books = [
+  {
+    _id: 1,
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    genre: "Fiction",
+    year: 1960,
+    isbn: "9780061120084",
+    coverImageUrl: "/images/1.jpg",
+    description: "To Kill a Mockingbird is a novel by Harper Lee...",
+    price: 10.99,
+    rating: 4,
+    numReviews: 12,
+    quantity: 20,
+  },
+  {
+    _id: 2,
+    title: "1984",
+    author: "George Orwell",
+    genre: "Dystopian",
+    year: 1949,
+    isbn: "9780451524935",
+    coverImageUrl: "/images/2.jpg",
+    description: "1984 is a dystopian novel by George Orwell...",
+    price: 9.99,
+    rating: 4.5,
+    numReviews: 12,
+    quantity: 15,
+  },
+  {
+    _id: 3,
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    genre: "Classic",
+    year: 1925,
+    isbn: "9780743273565",
+    coverImageUrl: "/images/3.jpg",
+    description:
+      "The Great Gatsby is a novel by American writer F. Scott Fitzgerald...",
+    price: 12.5,
+    rating: 3.5,
+    numReviews: 12,
+    quantity: 25,
+  },
+];
+
+export default books;
